@@ -1,0 +1,143 @@
+<!--
+    Eric Amoh Adjei
+  Assignment: HTML Text Styling
+  04/18/2024 
+-->
+
+<!DOCTYPE html> <!--always indicate document type to avoid errors-->
+<html lang="en"> <!--declaring the languge or country this HTML doc is written -->
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sustainable Living Newsletter</title>
+
+    <link rel="stylesheet" href="style.css"><!-- Adding my CSS file link here -->
+
+</head>
+
+
+<body>
+
+    <!-- Header starts -->
+
+    <header>
+
+<p>
+	<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%	3DOIP.7SEGw2xpF-n0jY_YO5qk-gHaHd%26pid%3DApi&f=1&ipt=	168099aebc66b8110417a3ad4d4908268a523c65240bfc35a1b681a06b70b7ac&ipo=images" alt="sustainable life logo" width 	="150" 	height ="150" > <!--adding logo-->
+</p>
+
+        <h1>Sustainable Living Newsletter</h1>
+        <p>Making a difference with every decision you make.</p>
+
+    </header>
+
+
+
+    <!-- Navigation bar starts -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Sustainable Living</a></li>
+            <li><a href="guides.html">Practical Guides</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Main content area starts -->
+
+    <main>
+
+        <section id="hero">
+
+            <h2>Welcome to Sustainable Practical Newsletter</h2>
+            <p>Learn more about Practical Guides to reduce your carbon footprint and live a more sustainable life.</p>
+
+<p>
+
+<h2>Sign Up for Our Newsletter</h2>
+
+</p>
+
+<p>
+
+<form action="submit_form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Send</button>
+</form>
+
+</p>
+        </section>
+
+
+        <aside>
+
+            <h3>Carbon Footprint Calculator</h3>
+            <p>Check your impact on the environment.</p>
+            <!-- Interactive calculator goes here -->
+             <h1>Check Your Impact on the Environment</h1>
+    <p>Enter details about your travel, energy usage, and other activities to estimate your carbon footprint.</p>
+    <!-- Interactive calculator goes here -->
+    <form id="carbonCalculator">
+        <label for="milesDriven">Miles driven per week:</label>
+        <input type="number" id="milesDriven" name="milesDriven"><br><br>
+        <button type="button" onclick="calculateFootprint()">Calculate</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="calculatorScript.js"></script>
+
+
+<p><br></p>
+
+<p>
+<h2>Sign Up for Our Newsletter</h2>
+</p>
+
+<p>
+<form action="submit_form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Send</button>
+</form>
+</p>
+
+        </aside>
+
+    </main>
+
+
+
+    <!-- Footer starts -->
+
+    <footer>
+
+        <p>Contact us at Eric@amoheric.com</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <p>Subscribe to our newsletter for the latest updates.</p>
+
+    </footer>
+
+</body>
+
+
+</html>
