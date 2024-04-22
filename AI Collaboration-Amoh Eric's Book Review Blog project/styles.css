@@ -1,0 +1,55 @@
+body 
+{
+    font-family: Arial, sans-serif; /* Sets the font family for the body to Arial, sans-serif */
+
+}
+
+header, footer 
+{
+    background-color: #f8f9fa; /* Sets the background color for header and footer */
+
+    padding: 1em; /* Adds padding around the content inside header and footer */
+
+    text-align: center; /* Centers the text inside header and footer */
+
+}
+
+nav ul 
+{
+    list-style: none; /* Removes bullet points from lists within nav */
+
+    padding: 0; /* Removes padding from lists within nav */
+
+}
+
+nav ul li 
+{
+    display: inline; /* Displays list items inline within the navigation menu */
+
+    margin-right: 10px; /* Adds a margin to the right of each list item */
+
+}
+
+main {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7p7l3FfI9hfQRDXfQY2LggHaDO%26pid%3DApi&f=1&ipt=da0751c844b571e85556d9bfe20465be37baaf85cf3be6ee590c90eb19bebd29&ipo=images/image.jpg');
+
+    background-size: cover;
+    color: #000;
+    padding: 20px;
+}
+
+section 
+{
+    margin: 20px; /* Adds margin around each section */
+
+    padding: 20px; /* Adds padding inside each section */
+
+    border: 1px solid #ccc; /* Adds a solid border with a light grey color around sections */
+
+}
+
+#searchInput 
+{
+    margin-top: 20px; /* Adds a top margin to the search input field */
+
+}
